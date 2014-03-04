@@ -1,0 +1,15 @@
+<environment>
+
+	<Browser/>
+	<Resolution>1024x1024</Resolution>	
+	
+	 <Server>
+        <context>m/e/digital</context>
+        <port>80</port>
+        <host>m.bestbuy.com</host>
+        <protocol>http</protocol>
+    </Server>
+	
+</environment>
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DigitalTestCaseSuite" parallel="tests" thread-count="5" verbose="3">
+
+	<test name="DigitalTest" junit="false" preserve-order="true">
+	    <parameter name="browser" value="firefox" />
+		<parameter name="platform" value="WINDOWS" />
+		<classes>
+			<class name="com.bestbuy.digital.testcases.DigitalWelcomePageTest" />
+			<methods>
+				<include name="testInvalidLogin" />
+				<include name="testRegistration" />
+				<include name="testLogin"></include>
+				<include name="testSelectProduct"></include>
+				<include name="testRemoveProduct"></include>
+				<include name="testSearchProduct"></include>
+				<include name="testCompareAndRemoveProduct"></include>
+				<include name="testLogout"></include>
+			</methods>
+		</classes>
+	</test>
+</suite>
+ 
+

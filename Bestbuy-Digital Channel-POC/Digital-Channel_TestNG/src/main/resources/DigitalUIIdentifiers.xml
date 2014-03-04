@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<uiidentifiers>
+        <!-- BestBuy Home -->
+   	    <bestBuyHomebutton>//a[@id='branding']</bestBuyHomebutton>
+		
+	    <!--Register-->
+        <myAccount>//footer/ul/li[3]/a</myAccount>
+        <createAccount>//ul[@id='checkout-method-list']/li</createAccount>
+        <firstName>//input[@id='TxtFirstName']</firstName>
+        <lastName>//input[@id='TxtLastName']</lastName>
+        <emailId>//input[@name='TxtEmail']</emailId>
+        <reTypeEmailId>//input[@name='TxtEmailConfirm']</reTypeEmailId>
+        <password>//input[@name='PwdPassword']</password>
+        <reTypepassword>//input[@name='PwdPasswordConfirm']</reTypepassword>
+        <zipCode>//input[@name='TxtPostalCode']</zipCode>
+        <continueButton>//input[@value='CONTINUE']</continueButton>
+       
+        <!-- Login -->
+        <signButton>//a[contains(text(),'Sign In')]</signButton>
+        <loginEmail>//input[@name='email2']</loginEmail>
+        <loginPassword>//input[@id='pwd1']</loginPassword>
+        <loginButton>//input[@name='add']</loginButton>
+        
+        <!-- SignOut -->
+        <signoutButton>//a[contains(text(),'Sign Out')]</signoutButton>
+       
+        <!-- Weekly Deals -->
+        <weeklyDealsButton>//a[contains(text(),'Weekly Deals')]</weeklyDealsButton>
+        <computerTabletsLink>//a[contains(@href, 'subcategories/Computers+amp+Tablets')]</computerTabletsLink>
+        <ipadTabletsLink>//a[contains(@href, '../search/product/Computers+amp+Tablets/iPad,+Tablets+amp+E-Readers')]</ipadTabletsLink>
+        <samsungGalaxyLink>//a[contains(text(),'Samsung - Galaxy Tab 2 7.0 with 8GB Memory - Titanium Silver')]</samsungGalaxyLink>
+        <addToCardButton>//input[@value='Add to Cart']</addToCardButton>
+        
+        <!-- checkOut  -->
+         <checkoutButton>//input[@name='/atg/commerce/order/ShoppingCartModifier.updateOrAdd']</checkoutButton>
+         <address1>//input[@name='TxtAddress1']</address1>
+         <address2>//input[@name='TxtAddress2']</address2>
+         <city>//input[@name='TxtCity']</city>
+         <state>//select[@name='DrpState']</state>
+         <phoneNo>//input[@name='TxtPhone1']</phoneNo>
+         <checkoutContinue>//input[@name='continue']</checkoutContinue>
+         
+         
+</uiidentifiers>

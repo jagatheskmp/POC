@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DigitalTestCaseSuite" verbose="1">
+	<test name="DigitalTest" junit="false" preserve-order="false">
+		<classes>
+			<class name="com.bestbuy.digital.testcases.DigitalWelcomePageTest" />
+			<methods>
+				<include name="testRegistration" />
+				<include name="testLogin" />
+			</methods>
+		</classes>
+	</test>
+</suite>
+ 
+

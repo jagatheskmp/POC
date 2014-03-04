@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<digitaluidata>
+    <!-- invalid Login -->
+	<invalidPassword>12345s</invalidPassword>
+	<invalidLoginError>Oops! The email or password did not match our records. Please try again.</invalidLoginError>
+	
+	<!-- registration -->
+	<regFirstName>sam</regFirstName>
+	<regLastName>sung</regLastName>
+	<regEmailId>samsung1@gmail.com</regEmailId>
+	<regReEmailId>samsung1@gmail.com</regReEmailId>
+	<regPassword>asdf12345</regPassword>
+	<regRePassword>asdf12345</regRePassword>
+	<regZipCode>55555</regZipCode>
+	
+	<!-- Check out -->
+	<state>MN - Minnesota</state>
+	<address1>minneapolis,america</address1>
+	<address2>minneapolis,america</address2>
+	<city>minneapolis</city>
+	<phoneNo>555-555-5555</phoneNo>
+	
+	<!-- Remove Product -->
+	<removeProductVerify>You have no items in your shopping cart</removeProductVerify>
+	
+	<!-- Search Product -->
+	<searchproduct>washing machine</searchproduct>
+	<sortByValue>Price Low to High</sortByValue>
+	
+	<!-- Compare Product -->
+	<compareProductVerify>Two items selected</compareProductVerify>
+	<compareSortbyValue>Best Selling</compareSortbyValue>
+	<compareProductafterRemove>One item selected</compareProductafterRemove>
+</digitaluidata>

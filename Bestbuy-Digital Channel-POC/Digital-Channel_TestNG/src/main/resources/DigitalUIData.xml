@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<digitaluidata>
+    <regFirstName>sam</regFirstName>
+    <regLastName>sung</regLastName>
+    <regEmailId>samsung1@gmail.com</regEmailId>
+    <regReEmailId>samsung1@gmail.com</regReEmailId>
+    <regPassword>asdf12345</regPassword>
+    <regRePassword>asdf12345</regRePassword>
+    <regZipCode>55555</regZipCode>
+    
+    <state>Minnesota</state>
+</digitaluidata>
